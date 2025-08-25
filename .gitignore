@@ -1,0 +1,32 @@
+﻿# Ignore system and browser cache folders
+AppData/
+*.tmp
+*.log
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignore Chrome and Edge user data
+*/Google/Chrome/User Data/
+*/Microsoft/Windows/Temporary Internet Files/
+*/Microsoft/Windows/IE/
+
+# Ignore Visual Studio and .NET build files
+*.suo
+*.user
+*.cache
+.vs/
+bin/
+obj/
+
+# Ignore Java build files (if any)
+*.class
+target/
+*.jar
+*.war
+*.ear
+
+# Ignore IDE folders
+.idea/
+.vscode/
